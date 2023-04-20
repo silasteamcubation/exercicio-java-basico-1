@@ -7,7 +7,9 @@ Crie uma classe ParserName, que contenha um método parse. Este método irá rec
 retornar um objeto Name, contendo um nome e um sobrenome separados.
 
 Este objeto Name deverá ter métodos acessórios getFirstName e getLastName, que retornarão o nome e o sobrenome
-respectivamente. 
+respectivamente.
+
+Se a pessoa tiver apenas um nome, deve ser lançado IllegalArgumentException.
 
 A classe de teste ParserNameTest já está pronta como exemplo.
 
